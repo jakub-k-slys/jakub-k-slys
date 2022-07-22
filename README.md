@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @jakub-k-slys
+- 👋 Hi, I’m Jakub Slys
 - 👀 I’m interested in software development
 - 🌱 I’m currently learning to be a dad
 - 📫 How to reach me via jakub@slys.dev
