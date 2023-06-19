@@ -1,5 +1,5 @@
 - 👋 Hi, Kuba here 👋
-- 👀 I have been working as software developer for more than decade
+- 👀 I have been working as software engineer for more than decade
 - 🌱 I’m currently learning to be a dad
 - 📫 Reach me via jakub@slys.dev
 
