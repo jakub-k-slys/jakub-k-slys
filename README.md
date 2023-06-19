@@ -12,14 +12,14 @@
 
 ### Technologies & Frameworks
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://github.com/jakub-k-slys)
-[![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1?style=for-the-badge&logo=apache-cassandra&logoColor=white)](https://github.com/jakub-k-slys)
-[![MySQL](https://img.shields.io/badge/mysql-%2300f?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/jakub-k-slys)
-[![Postgres](https://img.shields.io/badge/postgres-%23316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/jakub-k-slys)
-[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/jakub-k-slys)
+[![ApacheCassandra](https://img.shields.io/badge/cassandra-black?style=for-the-badge&logo=apache-cassandra&logoColor=white)](https://github.com/jakub-k-slys)
+[![MySQL](https://img.shields.io/badge/mysql-black?style=for-the-badge&logo=mysql&logoColor=white)](https://github.com/jakub-k-slys)
+[![Postgres](https://img.shields.io/badge/postgres-black?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/jakub-k-slys)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-black?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/jakub-k-slys)
 
 ### OS
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/jakub-k-slys)
-[![MacOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)](https://github.com/jakub-k-slys)
+[![MacOS](https://img.shields.io/badge/mac%20os-black?style=for-the-badge&logo=macos&logoColor=F0F0F0)](https://github.com/jakub-k-slys)
 <!---
 jakub-k-slys/jakub-k-slys is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
