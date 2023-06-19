@@ -16,7 +16,7 @@
 
 ### OS
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/jakub-k-slys)
-[![Windows](https://img.shields.io/badge/Windows-black?style=for-the-badge&logo=Windows)](https://github.com/jakub-k-slys)
+[![MacOS](https://img.shields.io/badge/Apple-%23000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/jakub-k-slys)
 
 <!---
 jakub-k-slys/jakub-k-slys is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
