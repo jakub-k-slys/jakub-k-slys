@@ -13,6 +13,8 @@
 ### Technologies & Frameworks
 [![Docker](https://img.shields.io/badge/docker-black?style=for-the-badge&logo=docker)](https://github.com/jakub-k-slys)
 [![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1?style=for-the-badge&logo=apache-cassandra&logoColor=white)](https://github.com/jakub-k-slys)
+[![Postgres](https://img.shields.io/badge/postgres-%23316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/jakub-k-slys)
+[![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/jakub-k-slys)
 
 ### OS
 [![Linux](https://img.shields.io/badge/linux-black?style=for-the-badge&logo=Linux)](https://github.com/jakub-k-slys)
