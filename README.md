@@ -1,7 +1,7 @@
-👋 Hi, Kuba here 👋
-👀 I have been working as software developer for more than decade
-🌱 I’m currently learning to be a dad
-📫 Reach me via jakub@slys.dev
+- 👋 Hi, Kuba here 👋
+- 👀 I have been working as software developer for more than decade
+- 🌱 I’m currently learning to be a dad
+- 📫 Reach me via jakub@slys.dev
 
 ### Languages
 [![Python](https://img.shields.io/badge/python-black?style=for-the-badge&logo=python)](https://github.com/jakub-k-slys)
