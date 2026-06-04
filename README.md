@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Jakub Slys
 
-🎯 **Senior Principal Software Engineer** with 10+ years of experience in high-performance distributed systems, cloud-native platforms, and scalable architecture.
+🎯 **Backend Engineer** with 15+ years of experience in high-performance distributed systems, cloud-native platforms, and scalable architecture.
 
 💡 Passionate about clean code, elegant abstractions, and pushing infrastructure to its limits. Currently exploring AI-enhanced workflow automation.
 
