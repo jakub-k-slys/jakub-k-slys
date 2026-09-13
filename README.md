@@ -54,36 +54,61 @@ Recent posts:
 ### 🛠 Languages  
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2b%2b&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
+![Scala](https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 
-### 📦 Infrastructure & Cloud  
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
+### ☁️ Cloud  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-web-services&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=flat&logo=terraform&logoColor=white)
 
-### 💾 Databases & Streaming  
+### 💾 Data & Streaming  
 ![Cassandra](https://img.shields.io/badge/Apache%20Cassandra-1287B1?style=flat&logo=apache-cassandra&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![Redpanda](https://img.shields.io/badge/Redpanda-E14D2A?style=flat&logo=redpanda&logoColor=white)
 ![Flink](https://img.shields.io/badge/Apache%20Flink-E6526F?style=flat&logo=apache-flink&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis%20%2F%20Dragonfly-DC382D?style=flat&logo=redis&logoColor=white)
+
+### ⎈ Kubernetes  
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Istio](https://img.shields.io/badge/Istio-466BB0?style=flat&logo=istio&logoColor=white)
+![Cilium](https://img.shields.io/badge/Cilium-F8C517?style=flat&logo=cilium&logoColor=black)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+---
+
+## 🏠 The homelab
+
+Three bare-metal nodes running **k0s**, used as a real platform rather than a toy —
+everything below is actually serving something, which is the only way the interesting
+problems show up.
+
+| | |
+|---|---|
+| **Networking** | Cilium (CNI, L2 announcements) · Istio in ambient mode · external-dns · cert-manager · Tailscale |
+| **Storage** | Longhorn · LVM CSI |
+| **Data** | CloudNativePG · Redpanda · Dragonfly |
+| **Identity** | Ory — Hydra (OAuth 2.1), Kratos (identities), Keto (permissions), Oathkeeper (gateway authz) |
+| **Secrets** | Vault · External Secrets Operator |
+| **Observability** | VictoriaMetrics · VictoriaLogs · Vector · Grafana |
+| **Workloads** | n8n in cluster mode · the MCP servers and gateway listed above, behind OIDC |
 
 ---
 
 ## 🧭 Currently
 
-Running a homelab Kubernetes cluster as a real platform — ambient service mesh, OIDC end
-to end, declarative Postgres, secrets out of Vault — because the interesting problems only
-turn up once something is actually in production.
+Model Context Protocol as a first-class integration surface — building MCP servers and
+running them behind OIDC rather than behind an API key.
 
-Also: distributed stream processing with Kafka/Flink, low-latency data systems, and
-Model Context Protocol as a first-class integration surface.
+Distributed stream processing with Kafka/Flink, low-latency data systems, and Rust for
+the things that used to be Go.
 
 ---
 
